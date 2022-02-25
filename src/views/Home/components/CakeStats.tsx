@@ -61,7 +61,7 @@ const CakeStats = () => {
         </Row>
         <Row>
           <Text fontSize="14px">{TranslateString(540, 'New BEE/block')}</Text>
-          <Text bold fontSize="14px">{beePerBlock}</Text>
+          <Text bold fontSize="14px">{merkelPerBlock}</Text>
         </Row>
       </CardBody>
     </StyledCakeStats>
