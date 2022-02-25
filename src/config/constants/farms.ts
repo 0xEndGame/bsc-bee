@@ -8,7 +8,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'MRKL-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0x10b8b3418E6BfAbCA16CB83f1Ba95581E5723B3F', // change lp contract
+      56: '0x800B76dCc672180C7E8A6B27AFCe2EfB25c2c9D4', // change lp contract
     },
     tokenSymbol: 'MRKL',
     tokenAddresses: {
@@ -24,7 +24,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'MRKL-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0x33904703d5115949C5667F3Bf3afcdf2adcE48a2', // change lp contract
+      56: '0x78f8B57e7B686B73F939779B8289B7142e9D1753', // change lp contract
     },
     tokenSymbol: 'MRKL',
     tokenAddresses: {
@@ -185,7 +185,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'MRKL',
     lpAddresses: {
       97: '',
-      56: '0x10b8b3418E6BfAbCA16CB83f1Ba95581E5723B3F', // MRKL-BUSD LP
+      56: '0x800B76dCc672180C7E8A6B27AFCe2EfB25c2c9D4', // MRKL-BUSD LP
     },
     tokenSymbol: 'MRKL',
     tokenAddresses: {
