@@ -5,15 +5,15 @@ const farms: FarmConfig[] = [
   {
     pid: 0,
     risk: 5,
-    lpSymbol: 'BEE-BUSD LP',
+    lpSymbol: 'MRKL-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0x10b8b3418E6BfAbCA16CB83f1Ba95581E5723B3F',
+      56: '0x10b8b3418E6BfAbCA16CB83f1Ba95581E5723B3F', //change lp contract
     },
-    tokenSymbol: 'BEE',
+    tokenSymbol: 'MRKL',
     tokenAddresses: {
       97: '',
-      56: '0xf60011fF21F44E1faf249E084CCE26FeA88a08F7',
+      56: '0x8a5Acf76AfF7Af1f40a320CdB6daB0F2e2420afb',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -21,15 +21,15 @@ const farms: FarmConfig[] = [
   {
     pid: 1,
     risk: 5,
-    lpSymbol: 'BEE-BNB LP',
+    lpSymbol: 'MRKL-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0x33904703d5115949C5667F3Bf3afcdf2adcE48a2',
+      56: '0x33904703d5115949C5667F3Bf3afcdf2adcE48a2', //change lp contract
     },
-    tokenSymbol: 'BEE',
+    tokenSymbol: 'MRKL',
     tokenAddresses: {
       97: '',
-      56: '0xf60011fF21F44E1faf249E084CCE26FeA88a08F7',
+      56: '0x8a5Acf76AfF7Af1f40a320CdB6daB0F2e2420afb',
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
@@ -182,15 +182,15 @@ const farms: FarmConfig[] = [
     pid: 11,
     risk: 5,
     isTokenOnly: true,
-    lpSymbol: 'BEE',
+    lpSymbol: 'MRKL',
     lpAddresses: {
       97: '',
-      56: '0x10b8b3418E6BfAbCA16CB83f1Ba95581E5723B3F', // BEE-BUSD LP
+      56: '0x10b8b3418E6BfAbCA16CB83f1Ba95581E5723B3F', // MRKL-BUSD LP
     },
-    tokenSymbol: 'BEE',
+    tokenSymbol: 'MRKL',
     tokenAddresses: {
       97: '',
-      56: '0xf60011fF21F44E1faf249E084CCE26FeA88a08F7',
+      56: '0x8a5Acf76AfF7Af1f40a320CdB6daB0F2e2420afb',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,

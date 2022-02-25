@@ -79,7 +79,7 @@ export const usePriceCakeBusd = (): BigNumber => {
   // const bnbPriceUSD = usePriceBnbBusd()
   // const farm = useFarmFromPid(pid)
   // return farm.tokenPriceVsQuote ? bnbPriceUSD.times(farm.tokenPriceVsQuote) : ZERO
-  const pid = 0; // BEE-BUSD LP
+  const pid = 0; // MRKL-BUSD LP
   const farm = useFarmFromPid(pid);
   return farm.tokenPriceVsQuote ? new BigNumber(farm.tokenPriceVsQuote) : ZERO;
 }
@@ -100,7 +100,7 @@ export const useTotalValue = (): BigNumber => {
       } else{
         val = (farm.lpTotalInQuoteToken);
       }
-      if (farm.lpSymbol === QuoteToken.BEE) {
+      if (farm.lpSymbol === QuoteToken.MRKL) {
         val = (cakePrice.times(farm.tokenAmount));
       }
       value = value.plus(val);

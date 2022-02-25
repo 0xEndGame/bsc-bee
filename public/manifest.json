@@ -1,7 +1,7 @@
 {
-  "short_name": "BeeSwap",
-  "name": "BeeSwap",
-  "description": "Farm BEE with LP Tokens",
+  "short_name": "MerkelSwap",
+  "name": "MerklelSwap",
+  "description": "Farm MRKL with LP Tokens",
   "icons": [
     {
       "src": "favicon.ico",

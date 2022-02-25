@@ -27,14 +27,14 @@ const CakeStats = () => {
   const totalSupply = useTotalSupply()
   const burnedBalance = useBurnedBalance(getCakeAddress())
   const farms = useFarms();
-  const beePrice = usePriceCakeBusd();
+  const merkelPrice = usePriceCakeBusd();
   const circSupply = totalSupply ? totalSupply.minus(burnedBalance) : new BigNumber(0);
   const cakeSupply = getBalanceNumber(circSupply);
-  const marketCap = beePrice.times(circSupply);
+  const marketCap = merkelPrice.times(circSupply);
 
-  let beePerBlock = 0;
-  if(farms && farms[0] && farms[0].beePerBlock){
-    beePerBlock = new BigNumber(farms[0].beePerBlock).div(new BigNumber(10).pow(18)).toNumber();
+  let merkelPerBlock = 0;
+  if(farms && farms[0] && farms[0].merkelPerBlock){
+    merkelPerBlock = new BigNumber(farms[0].merkelPerBlock).div(new BigNumber(10).pow(18)).toNumber();
   }
 
   return (
